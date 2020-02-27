@@ -8,6 +8,11 @@ class Song
     @@all << self
   end
   
+  def self.new_by_filename(file)
+    name = fiel.split(" - ")
+    new_song = Song.new(name[1])
+  end
+  
   def self.all
     @@all 
   end
