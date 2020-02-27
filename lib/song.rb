@@ -9,7 +9,7 @@ class Song
   end
   
   def self.new_by_filename(file)
-    name = fiel.split(" - ")
+    name = file.split(" - ")
     new_song = Song.new(name[1])
   end
   
