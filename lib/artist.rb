@@ -32,6 +32,7 @@ class Artist
   
   def self.create_by_name(name)
     new_artist = Artist.new(name)
+    new_artist
   end
   
 end
